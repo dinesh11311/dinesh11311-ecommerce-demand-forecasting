@@ -1,0 +1,117 @@
+ * Serving Flask app 'app'
+ * Debug mode: on
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.99.251.122:5000
+Press CTRL+C to quit
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 132-538-696
+127.0.0.1 - - [29/Sep/2026 11:53:30] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [29/Sep/2026 11:53:30] "POST /api/upload HTTP/1.1" 200 -
+127.0.0.1 - - [29/Sep/2026 11:53:30] "GET /api/data-summary HTTP/1.1" 200 -
+127.0.0.1 - - [29/Sep/2026 11:53:30] "GET /api/products HTTP/1.1" 200 -
+127.0.0.1 - - [29/Sep/2026 11:53:30] "GET /api/categories HTTP/1.1" 200 -
+127.0.0.1 - - [29/Sep/2026 11:53:33] "POST /api/train HTTP/1.1" 200 -
+C:\Users\HP\Desktop\ecommerce-demand-forecasting\venv\Lib\site-packages\statsmodels\tsa\statespace\sarimax.py:1022: EstimationWarning: Too few observations to estimate starting parameters for seasonal ARMA. All parameters except for variances will be set to zeros.
+  self._conditional_sum_squares(
+127.0.0.1 - - [29/Sep/2026 11:53:33] "POST /api/forecast HTTP/1.1" 200 -
+127.0.0.1 - - [29/Sep/2026 11:53:33] "POST /api/inventory HTTP/1.1" 200 -
+127.0.0.1 - - [29/Sep/2026 11:53:33] "GET /upload HTTP/1.1" 200 -
+127.0.0.1 - - [29/Sep/2026 11:53:33] "GET /analysis HTTP/1.1" 200 -
+127.0.0.1 - - [29/Sep/2026 11:53:33] "GET /training HTTP/1.1" 200 -
+127.0.0.1 - - [29/Sep/2026 11:53:33] "GET /forecast HTTP/1.1" 200 -
+127.0.0.1 - - [29/Sep/2026 11:53:33] "GET /inventory HTTP/1.1" 200 -
+127.0.0.1 - - [29/Sep/2026 11:53:33] "GET /dashboard HTTP/1.1" 200 -
+127.0.0.1 - - [29/Sep/2026 11:54:34] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [29/Sep/2026 11:54:35] "GET /static/css/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [29/Sep/2026 11:54:39] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [29/Sep/2026 11:54:40] "GET /upload HTTP/1.1" 200 -
+127.0.0.1 - - [29/Sep/2026 11:54:40] "GET /static/js/upload.js HTTP/1.1" 200 -
+127.0.0.1 - - [29/Sep/2026 11:54:40] "GET /static/css/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [29/Sep/2026 11:55:04] "GET /dashboard HTTP/1.1" 200 -
+127.0.0.1 - - [29/Sep/2026 11:55:30] "GET /dashboard HTTP/1.1" 200 -
+127.0.0.1 - - [29/Sep/2026 11:56:05] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [29/Sep/2026 11:56:05] "GET /static/css/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [29/Sep/2026 11:56:09] "GET /upload HTTP/1.1" 200 -
+127.0.0.1 - - [29/Sep/2026 11:56:10] "GET /static/css/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [29/Sep/2026 11:56:10] "GET /static/js/upload.js HTTP/1.1" 304 -
+127.0.0.1 - - [29/Sep/2026 11:56:17] "GET /analysis HTTP/1.1" 200 -
+127.0.0.1 - - [29/Sep/2026 11:56:18] "GET /static/css/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [29/Sep/2026 11:56:18] "GET /static/js/analysis.js HTTP/1.1" 200 -
+127.0.0.1 - - [29/Sep/2026 11:56:18] "GET /api/data-summary HTTP/1.1" 200 -
+127.0.0.1 - - [29/Sep/2026 11:56:22] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [29/Sep/2026 11:56:22] "GET /static/css/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [29/Sep/2026 11:56:23] "GET /upload HTTP/1.1" 200 -
+127.0.0.1 - - [29/Sep/2026 11:56:23] "GET /static/css/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [29/Sep/2026 11:56:23] "GET /static/js/upload.js HTTP/1.1" 304 -
+127.0.0.1 - - [29/Sep/2026 12:00:44] "POST /api/upload HTTP/1.1" 400 -
+127.0.0.1 - - [29/Sep/2026 12:01:10] "GET /dashboard HTTP/1.1" 200 -
+127.0.0.1 - - [29/Sep/2026 12:01:10] "GET /static/css/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [29/Sep/2026 12:01:10] "GET /static/js/dashboard.js HTTP/1.1" 200 -
+127.0.0.1 - - [29/Sep/2026 12:01:11] "GET /api/data-summary HTTP/1.1" 200 -
+127.0.0.1 - - [29/Sep/2026 12:01:40] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [29/Sep/2026 12:01:41] "GET /static/css/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [29/Sep/2026 12:01:42] "GET /upload HTTP/1.1" 200 -
+127.0.0.1 - - [29/Sep/2026 12:01:42] "GET /static/css/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [29/Sep/2026 12:01:42] "GET /static/js/upload.js HTTP/1.1" 304 -
+127.0.0.1 - - [29/Sep/2026 12:01:49] "POST /api/upload HTTP/1.1" 400 -
+127.0.0.1 - - [29/Sep/2026 12:03:15] "POST /api/upload HTTP/1.1" 200 -
+127.0.0.1 - - [29/Sep/2026 12:03:20] "GET /upload HTTP/1.1" 200 -
+127.0.0.1 - - [29/Sep/2026 12:03:20] "GET /static/css/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [29/Sep/2026 12:03:20] "GET /static/js/upload.js HTTP/1.1" 304 -
+127.0.0.1 - - [29/Sep/2026 12:03:22] "GET /analysis HTTP/1.1" 200 -
+127.0.0.1 - - [29/Sep/2026 12:03:22] "GET /static/css/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [29/Sep/2026 12:03:23] "GET /static/js/analysis.js HTTP/1.1" 304 -
+127.0.0.1 - - [29/Sep/2026 12:03:23] "GET /api/data-summary HTTP/1.1" 200 -
+127.0.0.1 - - [29/Sep/2026 12:03:25] "GET /training HTTP/1.1" 200 -
+127.0.0.1 - - [29/Sep/2026 12:03:25] "GET /static/css/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [29/Sep/2026 12:03:25] "GET /static/js/training.js HTTP/1.1" 200 -
+127.0.0.1 - - [29/Sep/2026 12:03:27] "GET /forecast HTTP/1.1" 200 -
+127.0.0.1 - - [29/Sep/2026 12:03:27] "GET /static/js/forecast.js HTTP/1.1" 200 -
+127.0.0.1 - - [29/Sep/2026 12:03:27] "GET /static/css/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [29/Sep/2026 12:03:27] "GET /api/products HTTP/1.1" 200 -
+127.0.0.1 - - [29/Sep/2026 12:03:28] "GET /inventory HTTP/1.1" 200 -
+127.0.0.1 - - [29/Sep/2026 12:03:28] "GET /static/css/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [29/Sep/2026 12:03:28] "GET /static/js/inventory.js HTTP/1.1" 200 -
+127.0.0.1 - - [29/Sep/2026 12:03:28] "GET /api/products HTTP/1.1" 200 -
+127.0.0.1 - - [29/Sep/2026 12:03:29] "GET /dashboard HTTP/1.1" 200 -
+127.0.0.1 - - [29/Sep/2026 12:03:29] "GET /static/css/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [29/Sep/2026 12:03:29] "GET /static/js/dashboard.js HTTP/1.1" 304 -
+127.0.0.1 - - [29/Sep/2026 12:03:30] "GET /api/data-summary HTTP/1.1" 200 -
+127.0.0.1 - - [29/Sep/2026 12:03:33] "GET /upload HTTP/1.1" 200 -
+127.0.0.1 - - [29/Sep/2026 12:03:33] "GET /static/css/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [29/Sep/2026 12:03:33] "GET /static/js/upload.js HTTP/1.1" 304 -
+127.0.0.1 - - [29/Sep/2026 12:03:40] "POST /api/upload HTTP/1.1" 200 -
+127.0.0.1 - - [29/Sep/2026 12:03:56] "GET /analysis HTTP/1.1" 200 -
+127.0.0.1 - - [29/Sep/2026 12:03:56] "GET /static/css/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [29/Sep/2026 12:03:56] "GET /static/js/analysis.js HTTP/1.1" 304 -
+127.0.0.1 - - [29/Sep/2026 12:03:56] "GET /api/data-summary HTTP/1.1" 200 -
+127.0.0.1 - - [29/Sep/2026 12:04:07] "GET /training HTTP/1.1" 200 -
+127.0.0.1 - - [29/Sep/2026 12:04:07] "GET /static/css/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [29/Sep/2026 12:04:07] "GET /static/js/training.js HTTP/1.1" 304 -
+127.0.0.1 - - [29/Sep/2026 12:04:09] "POST /api/train HTTP/1.1" 200 -
+127.0.0.1 - - [29/Sep/2026 12:04:18] "GET /forecast HTTP/1.1" 200 -
+127.0.0.1 - - [29/Sep/2026 12:04:18] "GET /static/css/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [29/Sep/2026 12:04:19] "GET /static/js/forecast.js HTTP/1.1" 304 -
+127.0.0.1 - - [29/Sep/2026 12:04:19] "GET /api/products HTTP/1.1" 200 -
+C:\Users\HP\Desktop\ecommerce-demand-forecasting\venv\Lib\site-packages\statsmodels\tsa\statespace\sarimax.py:1022: EstimationWarning: Too few observations to estimate starting parameters for seasonal ARMA. All parameters except for variances will be set to zeros.
+  self._conditional_sum_squares(
+127.0.0.1 - - [29/Sep/2026 12:04:20] "POST /api/forecast HTTP/1.1" 200 -
+127.0.0.1 - - [29/Sep/2026 12:04:24] "GET /inventory HTTP/1.1" 200 -
+127.0.0.1 - - [29/Sep/2026 12:04:24] "GET /static/css/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [29/Sep/2026 12:04:24] "GET /static/js/inventory.js HTTP/1.1" 304 -
+127.0.0.1 - - [29/Sep/2026 12:04:24] "GET /api/products HTTP/1.1" 200 -
+127.0.0.1 - - [29/Sep/2026 12:04:26] "POST /api/inventory HTTP/1.1" 200 -
+127.0.0.1 - - [29/Sep/2026 12:04:30] "GET /dashboard HTTP/1.1" 200 -
+127.0.0.1 - - [29/Sep/2026 12:04:30] "GET /static/css/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [29/Sep/2026 12:04:30] "GET /static/js/dashboard.js HTTP/1.1" 304 -
+127.0.0.1 - - [29/Sep/2026 12:04:30] "GET /api/data-summary HTTP/1.1" 200 -
+127.0.0.1 - - [29/Sep/2026 12:04:45] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [29/Sep/2026 12:04:45] "GET /static/css/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [29/Sep/2026 12:06:21] "GET /upload HTTP/1.1" 200 -
+127.0.0.1 - - [29/Sep/2026 12:06:21] "GET /static/css/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [29/Sep/2026 12:06:21] "GET /static/js/upload.js HTTP/1.1" 304 -
+127.0.0.1 - - [29/Sep/2026 12:06:22] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [29/Sep/2026 12:06:22] "GET /static/css/style.css HTTP/1.1" 304 -
